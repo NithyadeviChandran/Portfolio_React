@@ -1,24 +1,28 @@
 import React from "react";
+import DocViewer from "react-doc-viewer";
+
 
 function MainSection() {
+  const docs=[{uri:("../assets/CV_ChandrasekaranNithyadevi")}]
   return (
     <>
     <div className="Mainsection">
       <div className="Main grow">
         <div className="title">
           <h1>Nithyadevi Chandrasekaran</h1>
-          <p>Front end Developer with Manual testing experience</p>
-          <a
-            href={".../assets/CV_ChandrasekaranNithyadevi.pdf"}
+          <p>Front end Developer / Manual tester</p>
+          {/* <a
+            href="../assets/CV_ChandrasekaranNithyadevi.pdf"
             target="_blank"
-          >
+          > */}
             <button>My CV</button>
-          </a>
+            <DocViewer documents={docs}/>
+          {/* </a> */}
         </div>
       </div>
 
         <div className="skillpara">
-          <h3>Skill Set</h3>
+          <h3>SKILLSET</h3>
           <p>HTML</p>
           <div className="container">
           <div className="skills html">90%</div>
