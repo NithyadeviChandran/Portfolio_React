@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .Nav{
@@ -77,9 +78,9 @@ padding: 20px 0;
   font-size: 20px;
   padding: 10px;
 }
-.title > a > button{
+.title >a>button {
 background-color: orangered;
-padding: 12px 35px;
+padding: 12px 25px;
 border: none;
 border-radius: 5px;
 color: white;
@@ -87,8 +88,9 @@ cursor: pointer;
 font-family:'Verdana, Geneva, Tahoma, sans-serif';
 font-size: 15px;
 font-weight: bold;
+text-decoration: none;
 }
-.title > a > button:hover{
+.title > a> button :hover{
   color: orangered;
   background-color: white;
 }
@@ -188,4 +190,25 @@ font-weight: bold;
   border: 1px dotted white;
   border-radius: 10px;
   background-color: orangered;
+}
+/* styling the Contact section */
+.contactus{
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.email{
+  margin-left: 380px;
+  padding: 20px;
+  height: 200px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.email>a{
+  font-size: 20px;
+  color: black;
+}
+.email>a>span{
+  color: orangered;
 }

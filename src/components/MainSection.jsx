@@ -1,9 +1,7 @@
 import React from "react";
-import DocViewer from "react-doc-viewer";
 
 
 function MainSection() {
-  const docs=[{uri:("../assets/CV_ChandrasekaranNithyadevi")}]
   return (
     <>
     <div className="Mainsection">
@@ -11,13 +9,9 @@ function MainSection() {
         <div className="title">
           <h1>Nithyadevi Chandrasekaran</h1>
           <p>Front end Developer / Manual tester</p>
-          {/* <a
-            href="../assets/CV_ChandrasekaranNithyadevi.pdf"
-            target="_blank"
-          > */}
-            <button>My CV</button>
-            <DocViewer documents={docs}/>
-          {/* </a> */}
+            <a href="../public/CV_ChandrasekaranNithyadevi.pdf"
+            target="_blank" > <button>My CV </button> </a> 
+          
         </div>
       </div>
 

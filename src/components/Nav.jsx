@@ -20,7 +20,10 @@ function Nav() {
         <Link to="Contact">
         <h4>Contact</h4>
         </Link>
+        <a href="tel:+49 1573 0106001">
         <h4 className='Connectbutton'>Connect with me</h4>
+        </a>
+        
        </div>
 
 
