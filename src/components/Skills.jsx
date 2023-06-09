@@ -1,26 +1,8 @@
-import React from "react";
+import React from 'react'
 
-
-function MainSection() {
+function Skills() {
   return (
-    <>
-    <div className="Mainsection">
-      <div className="Main">
-        <div className="title">
-          <h1>Nithyadevi Chandrasekaran</h1>
-          <p>Front end Developer / Manual tester</p>
-            <a href="../public/CV_ChandrasekaranNithyadevi.pdf"
-            target="_blank" > <button>My CV </button> </a> 
-        </div>
-      </div>
-      </div>
-    </>
-  );
-}
-
-export default MainSection;
-{/* 
-        <div className="skillpara">
+<div className="skillpara">
           <h3>SKILLSET</h3>
           <p>HTML</p>
           <div className="container">
@@ -41,5 +23,8 @@ export default MainSection;
           <div className="container">
             <div className="skills React">70%</div>
           </div> 
-        </div> */}
+        </div>
+  )
+}
 
+export default Skills

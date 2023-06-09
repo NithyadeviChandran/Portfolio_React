@@ -13,14 +13,14 @@ function Projects() {
         <p>My sample projects for reference</p>
         <div className='projectImage'>
           <a href="https://nithyaportfolio.netlify.app">
-          <img src={Image}  height={200} width={200}/>
+          <img src={Image}/>
           <h4>PortfolioPage</h4></a>
           <a href="https://nithyatravelblog.netlify.app">
-          <img src={pic}  height={200} width={200}/><h4>TravelPage</h4></a>
+          <img src={pic}/><h4>TravelPage</h4></a>
           <a href="https://landingpageworksop.netlify.app">
-          <img src={pic1}  height={200} width={200}/><h4>LandingPage</h4></a>
+          <img src={pic1} /><h4>LandingPage</h4></a>
           <a href=" https://recipe-nithyadevi.netlify.app">
-          <img src={pic2}  height={200} width={200}/><h4>RecipePage</h4></a>
+          <img src={pic2} /><h4>RecipePage</h4></a>
         </div>
     </div>
     </>

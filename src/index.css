@@ -49,20 +49,18 @@ padding: 20px 0;
   cursor: pointer;
   border-radius: 5px;
 }
-
+/* Styling the main section */
 .Main{
   background-image: url("./assets/Nithya_Pic.jpg");
   height: 600px;
   background-position: left;
   margin-left: 80px;
+  margin-bottom: 0px;
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
+  /* position: relative; */
 }
 
-.grow{
-  flex-grow: 1;
-}
 .title{
   position: absolute;
   top: 250px;
@@ -95,25 +93,22 @@ text-decoration: none;
   background-color: white;
 }
 .Mainsection{
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 .skillpara{
   display: flex;
   flex-direction: column;
   font-size: 20px;
   font-family:'Verdana, Geneva, Tahoma, sans-serif';
-  margin-left: 700px;
+  position: relative;
+  margin: 10px 0px 50px 700px;
 } 
-/* .image>img{
-  height: 250px;
-  width: 350px;
-}  */
+
 /* Style the skills section */
 .container {
   width: 80%; 
   background-color: grey; 
   position: relative;
-
   height: 17px;
 }
 
@@ -146,13 +141,20 @@ text-decoration: none;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
+  margin: 50px 0 50px 50px;
 }
 .projectImage>a{
   font-size: 20px;
   font-family: 'Verdana, Geneva, Tahoma, sans-serif';
   text-decoration: none;
   color: black;
+}
+.projectImage>a>img{
+height: 100px;
+margin-top: 20px;
+width: 150px;
+border: 1px solid grey;
+border-radius: 10px;
 }
 
 /* Experience styling */
@@ -204,6 +206,10 @@ text-decoration: none;
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
 }
 .email>a{
   font-size: 20px;
